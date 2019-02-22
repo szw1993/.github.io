@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="Chinese">
+<html class="theme-next pisces use-motion" lang="Zh-Hans">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,7 +83,7 @@
 <meta property="og:title" content="S">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="S">
-<meta property="og:locale" content="Chinese">
+<meta property="og:locale" content="Zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="S">
 
@@ -133,7 +133,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="Chinese">
+<body itemscope itemtype="http://schema.org/WebPage" lang="Zh-Hans">
 
   
   
@@ -157,7 +157,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">Share everything</p>
       
   </div>
 
@@ -294,6 +294,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/02/20/hello-world/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/02/20/hello-world/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -320,7 +330,8 @@
       
         
           
-            
+            <p><img src="http://pic.yupoo.com/szw1993/de72830a/d8d0915d.jpg" alt="books"></p>
+
           
         
       
@@ -446,7 +457,9 @@
 
           
           
+<br>
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=25769219&auto=1&height=66"></iframe>
           
 
         </div>
@@ -490,6 +503,26 @@
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      visitors<i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      Time
+    </span>
+  
+
+  
+    <span class="site-pv">
+      visits<i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -630,6 +663,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'w1D1YPiD7WY0zWYTIR1zm2do-gzGzoHsz',
+        appKey: 'sWG7jDbel7sQFLqEtKQyD9PE',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
